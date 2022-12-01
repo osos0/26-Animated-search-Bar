@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgb(232, 232, 232);
+}
+
+.continer {
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 50px;
+  box-shadow: 4px 4px 8px;
+  position: relative;
+}
+
+.search {
+  height: 40px;
+  /* border: 1px solid black; */
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+.mic {
+  height: 40px;
+
+  /* border: 1px solid black; */
+  border-radius: 100%;
+  /* margin: 0 10px; */
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.input {
+  height: 30px;
+
+  /* border: 1px solid black; */
+  margin: 0 30px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+/* .active.continer {
+  width: 40px;
+} */
