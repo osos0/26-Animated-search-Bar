@@ -27,28 +27,47 @@ body {
   position: absolute;
   left: 0;
   cursor: pointer;
+  transition: 1000ms;
 }
 .mic {
   height: 40px;
-
-  /* border: 1px solid black; */
   border-radius: 100%;
-  /* margin: 0 10px; */
   position: absolute;
   right: 0;
   cursor: pointer;
+  transition: 1000ms;
 }
 
 .input {
   height: 30px;
-
-  /* border: 1px solid black; */
-  margin: 0 30px;
+  width: 225px;
+  margin: 0 10px;
   border: none;
   outline: none;
   background-color: transparent;
+  transition: 1000ms;
+}
+.active {
+  width: 0;
 }
 
-/* .active.continer {
+.active .continer {
+  box-shadow: none;
+}
+
+.active.input {
+  width: 0;
+}
+
+.active.mic {
+  width: 0;
+}
+
+.active.search {
   width: 40px;
-} */
+  box-shadow: 4px 4px 8px;
+  padding: 5px;
+  position: static;
+  right: 50%;
+  transition: 3s ease-in-out;
+}
